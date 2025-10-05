@@ -1,0 +1,55 @@
+/* Дополнительные стили для кастомизации Bootstrap */
+body {
+    background: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Секции */
+section {
+    margin-bottom: 1.5rem;
+}
+
+/* Кастомизация таблицы */
+.table th {
+    border-top: none;
+}
+
+/* Стили для карты изображения */
+.position-relative img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Адаптивность для текста на карте */
+@media (max-width: 576px) {
+    .position-absolute {
+        font-size: 12px;
+    }
+}
+
+/* Улучшение внешнего вида ссылок */
+a:hover {
+    color: #0d6efd;
+}
+
+/* Стили для нумерованного списка */
+.list-numbered {
+    padding-left: 1.5rem;
+}
+
+/* Mobile First - дополнительные стили для мобильных */
+@media (max-width: 768px) {
+    .btn-sm {
+        padding: 0.375rem 0.75rem;
+        font-size: 0.875rem;
+    }
+    
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+}
+
+/* Улучшение отступов для лучшей читаемости */
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
